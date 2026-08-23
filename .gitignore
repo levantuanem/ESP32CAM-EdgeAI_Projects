@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python build
+build/
+dist/
+*.egg-info/
+
+# Environment
+.env
+
+# ML artifacts
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.onnx
+*.tflite
+
+# Large datasets
+ml/dataset/raw/*
+ml/dataset/processed/*
+
+# Generated model
+ml/export/*
+
+# ESP32 / PlatformIO
+firmware/.pio/
+firmware/.vscode/
+
+# Arduino
+*.hex
+*.bin
+*.elf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
