@@ -217,3 +217,6 @@ The next development stage is to implement the **ESP32-CAM hardware layer**, beg
 AI / Machine Learning / Edge AI / Embedded Systems
 
 ---
+pio run 
+pio run -t upload
+pio device monitor -p COM8 -b 115200
