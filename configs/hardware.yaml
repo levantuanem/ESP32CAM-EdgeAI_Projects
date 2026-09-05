@@ -1,0 +1,12 @@
+target: esp32-s3
+board: esp32-s3-devkitc-1
+framework: arduino
+camera: null
+flash_mb: 8
+psram: true
+constraints:
+	max_model_size_mb: 4
+	max_latency_ms: 500
+	max_sram_mb: 0.5
+serial:
+	baud: 115200

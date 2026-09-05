@@ -1,0 +1,12 @@
+name: baseline
+seed: 42
+device: auto
+epochs: 10
+batch_size: 32
+learning_rate: 0.001
+workers: 2
+metrics:
+	- accuracy
+	- latency_ms
+	- model_size_mb
+	- memory_mb

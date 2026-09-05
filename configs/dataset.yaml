@@ -1,0 +1,11 @@
+name: dataset
+root: data
+train: data/processed/train
+validation: data/processed/val
+test: data/processed/test
+image_size: 96
+channels: 3
+num_classes: 2
+class_names:
+	- class_0
+	- class_1
